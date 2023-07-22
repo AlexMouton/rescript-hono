@@ -1,0 +1,37 @@
+{
+  "name": "@alexmouton/rescript-hono",
+  "version": "3.0.0",
+  "description": "Rescript bindings for Hono",
+  "files": [
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "bsconfig.json",
+    "src/**/*.res",
+    "src/**/*.resi"
+  ],
+  "scripts": {
+    "build": "rescript build",
+    "start": "rescript build -w",
+    "clean": "rescript clean",
+    "test": "echo 'tests disabled for now'",
+    "pub": "yarn publish --scope alexmouton --access public"
+  },
+  "keywords": [
+    "rescript",
+    "hono"
+  ],
+  "author": "Alex Mouton <thomas.mouton@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://github.com/AlexMouton/rescript-hono.git"
+  },
+  "devDependencies": {
+    "rescript": "^10",
+    "hono": "^3.0.0"
+  },
+  "peerDependencies": {
+    "hono": "^3.0.0"
+  }
+}

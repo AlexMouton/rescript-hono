@@ -1,0 +1,4 @@
+{
+  "name": "@AlexMouton/rescript-hono",
+  "sources": ["src"]
+}
