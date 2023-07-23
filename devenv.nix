@@ -5,7 +5,7 @@
   env.GREET = "devenv";
 
   # https://devenv.sh/packages/
-  packages = [ pkgs.git pkgs.nodePackages.npm ];
+  packages = [ pkgs.git pkgs.yarn pkgs.nodePackages.npm ];
 
   # https://devenv.sh/scripts/
   scripts.hello.exec = "echo hello from $GREET";
